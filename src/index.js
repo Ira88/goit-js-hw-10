@@ -17,7 +17,7 @@ function cleanHtml() {
   }
   function onInput (){
     const trimmedValue = input.value.trim();
-    console.log(trimmedValue)
+    // console.log(trimmedValue)
     
     if (trimmedValue === ''){ 
         cleanHtml();
